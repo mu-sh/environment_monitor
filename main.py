@@ -3,9 +3,9 @@
 # (BMP280 has no humidity sensor, so humidity is intentionally dropped.)
 
 # ============ EDIT THESE ============
-WIFI_SSID = "VM4122388"        # must be a 2.4GHz network - ESP32 can't see 5GHz
-WIFI_PASS = "h9hyYcpzvjrb"
-MQTT_HOST = "192.168.0.92"           # your Pi's IP (the one that returned the 204)
+WIFI_SSID = "YOUR_SSID"        # must be a 2.4GHz network - ESP32 can't see 5GHz
+WIFI_PASS = "SSID_PASSWORD"
+MQTT_HOST = "BROKER_IP"           # your Pi's IP (the one that returned the 204)
 LOCATION  = "living-room"
 NODE_ID   = "esp32-01"
 INTERVAL  = 15                      # seconds between readings
